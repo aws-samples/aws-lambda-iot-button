@@ -1,12 +1,12 @@
 'use strict';
 
 /**
- * This is a Lambda function that sends an Email on click of a
+ * This is a Lambda function that sends an Email on the click of an AWS IoT
  * button by publishing to an SNS topic.
  *
  * 1. Enter the ARN (Amazon Resource Name) of the SNS topic you have created.
- * 2. Edit the message to be delivered upon single clicks, double clicks, and 
- * long clicks
+ * 2. Edit the content of the message to be delivered upon single clicks, double clicks, and 
+ * long clicks by changing the text within the single quotation marks
  */
 
 const AWS = require('aws-sdk');
