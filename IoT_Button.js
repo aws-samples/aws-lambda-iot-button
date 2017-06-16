@@ -16,10 +16,11 @@ const SNS = new AWS.SNS({ apiVersion: '2010-03-31' });
 const TOPIC_ARN = 'YOUR SNS TOPIC ARN GOES HERE';
 
 exports.handler = (event, context, callback) => {
-    
-    const singleClick = 'There is food in the 10th floor kitchen';
-    const doubleClick = 'Food on 10 - limited vegetarian options';
-    const longClick = 'There is dessert in the 10th floor kitchen!';
+
+// !!CHANGE THIS!! Your text to display goes in the single quotation marks below    
+    const singleClick = 'TYPE SINGLE CLICK MESSAGE HERE';
+    const doubleClick = 'TYPE DOUBLE CLICK MESSAGE HERE';
+    const longClick = 'TYPE LONG CLICK MESSAGE HERE';
    
 var nomAlert = singleClick;   
 
