@@ -35,7 +35,7 @@ if(event.clickType == "LONG"){
  const params = {
             Message: nomAlert,
             // !!CHANGE THIS!! Enter the subject of your email in the single quotation marks below
-            Subject: `NomNom Alert - Food on 10`,
+            Subject: `EMAIL SUBJECT GOES HERE`,
             TopicArn: TOPIC_ARN,
         };
         // result will go to function callback
